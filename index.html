@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="first">
+                <div class="box1">
+                    <p style="display: inline;">Brush:</p>
+                    <input type="color" class="font-control btnSize" id="colorPicker">
+                    <select class="btnSize" id="brushSize">
+                        <option value="5">5px</option>
+                        <option value="10">10px</option>
+                        <option value="20">20px</option>
+                        <option value="30">30px</option>
+                        <option value="40">40px</option>
+                        <option value="50">50px</option>
+                    </select>
+                    <div class="verticleline">Background:</div>
+                    <input type="color" class="btnSize" id="backgroundPicker">
+                </div>
+                <div class="box2">
+                    <button class="btnSize Draw" id="drawOption"><i class="fa-solid fa-paintbrush" style="margin-right: 6px;"></i>Draw</button>
+                    <button class="btnSize" id="uploadOption"><i class="fa-solid fa-upload" style="margin-right: 6px;"></i>Upload</button>
+                </div>
+            </div>
+            <div class="second">
+                <canvas id="signatureCanvas"></canvas>
+            </div>
+            <div class="third">
+                <i>
+                    By using the Signature component, you can enable the user to draw handwritten signatures using touch or pointer devices.
+                </i>
+            </div>
+            <div class="four">
+                <button class="save"><i class="fa-regular fa-floppy-disk"></i>Save</button>
+                <button class="clear">Clear</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
