@@ -1,106 +1,96 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif; /* Changed from fantasy to a more readable font */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: fantasy;
+}
+html,body{
+    height:100%;
+    width:100%;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
-.container {
+.container{
     border: 1.5px solid lightgrey;
-    height: 400px;
+    height:400px;
     width: 650px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 
-.first {
+.first{
     border-bottom: 1.5px solid lightgrey;
-    height: 12%;
-    background: #f5f7f7;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    height:12%;
+    background:#f5f7f7;
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
-
-.box1 {
-    display: flex;
-    align-items: center;
+.box1{
+    display:flex;
+    align-items:center;
 }
-
-.Draw {
-    background: #0e7be8;
-    color: white;
+.Draw{
+    background:#0e7be8;
+    color:white;
 }
-
-.btnSize {
-    height: 30px;
+.btnSize{
+    height:30px;
     padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    cursor: pointer;
+    border:none;
+    border-radius:5px;
+    margin-left:10px;
+    cursor:pointer;
 }
-
-.verticleline {
+.verticleline{
     border-left: 2px solid lightgrey;
-    margin-left: 10px;
-    padding-left: 10px;
+    margin-left:10px;
+    padding-left:10px;
 }
 
-.second {
+.second{
     border-bottom: 1.5px solid lightgrey;
-    height: 60%;
-    position: relative;
+    height:60%;
 }
 
-.third {
-    height: 16%;
+.third{
+    height:16%;
     border-bottom: 1.5px solid lightgrey;
-    padding: 15px 12px;
+    padding:15px 12px;
+}
+#signatureCanvas{
+    height:100%;
+    width:100%;
+}
+.four{
+    display:flex;
+    align-items:center;
+    height:12%;
+    background:#f5f7f7;
 }
 
-#signatureCanvas {
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
-    background-color: white;
-}
-
-.four {
-    display: flex;
-    align-items: center;
-    height: 12%;
-    background: #f5f7f7;
-}
-
-.save {
-    height: 30px;
-    background: #4fb2e3;
-    color: white;
+.save{
+    height:30px;
+    background:#4fb2e3;
+    color:white;
     padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    cursor: pointer;
+    border:none;
+    border-radius:5px;
+    margin-left:10px;
+    cursor:pointer;
 }
 
-.save i {
-    margin-right: 6px;
+.save i{
+    margin-right:6px;
 }
 
-.clear {
-    height: 30px;
+.clear{
+    height:30px;
     padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    cursor: pointer;
+    border:none;
+    border-radius:5px;
+    margin-left:10px;
+    cursor:pointer;
 }
